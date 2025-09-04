@@ -14,6 +14,10 @@ jobs:
       fail-fast: false
       matrix:
         include:
+          - model: "SM-A146B"
+            csc: "INS"
+            omc: "ODM"
+            imei: "351733712227777"
           - model: "SM-A166B"
             csc: "EUX"
             omc: "OXM"
